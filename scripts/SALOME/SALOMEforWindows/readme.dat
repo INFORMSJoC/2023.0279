@@ -1,0 +1,39 @@
+Dear user:
+
+The archive "SalomeforWindows.zip" contains MS WINDOWS executables of SALOME, a procedure for solving the simple assembly line balancing problem (SALBP).
+
+For descriptions of SALOME and SALBP see:
+Scholl, A. and R. Klein (1997): SALOME: A bidirectional branch and bound procedure for assembly line balancing. INFORMS Journal on Computing 9, pp. 319-334.
+Scholl, A. (1999): Balancing and sequencing of assembly lines. 2nd ed., Physica, Heidelberg (3rd edition forthcoming).
+Scholl, A. and R. Klein (1999): Balancing assembly lines effectively - A computational comparison. European Journal of Operational Research 114, S. 50-58.
+Scholl, A. and C. Becker (2003): State-of-the-art exact and heuristic solution procedures for simple assembly line balancing. To appear in: European Journal of Operational Research.
+
+Contained are codes for three versions of SALBP:
+SAL1for1.exe:  solves SALBP-1
+SAL1for2.exe:  solves SALBP-2 (by iterative search procedures based on SALBP-1)
+SAL1forE.exe:  solves SALBP-E (by iterative search procedures based on SALBP-1)
+
+Data sets:
+The archive "albdata.zip"contains standard benchmark data as described at "www.assembly-line-balancing.de" and in the literature given above. 
+
+Construction of data files:
+In order to solve other problem instances please construct data files in the same manner as given in "albdata.zip". Each file (extension ".in2") is constructed as follows: 
+The first line solely contains the number n of tasks.
+Each of the next n lines contains the task times t[i] for i=1,...,n.
+Each following line contains one precedence relation in the formatting i,j (from-tasks and to-task separated by a colon).
+As terminal mark use "-1,-1" (without the quotation marks).
+Please notice that the tasks must be already numbered topologically, i.e. for each precedence relation i->j the condition i<j must hold.
+
+Installation of the software:
+Please unzip all program and batch files from "SalomeforWindows.zip" into a new directory. 
+In order not to change the batch files unzip the test data into the folder "c:\forschung\alb\daten\". 
+If you decide to use another folder, please change the batch files accordingly.
+
+Running the software:
+The SALOME codes are executed by starting the batch files in a DOS window or by double clicking at the batch files in the WINDOWS explorer.
+
+Output:
+The codes produce output files containing a single row for each instance with the optimal solution value (or an interval of remaining values in case of a time out) and the computation time (german style with a colon indicating floating point values). The last columns contain the task assignments (index of the stations to which the tasks i=1,...,n are assigned to).
+
+
+
