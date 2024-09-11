@@ -38,4 +38,4 @@ This software implements an improved combinatorial Benders decomposition algorit
 
 ```python main.py```
 
-Data Source: https://celso-sikora.com/publication-list/
+Data Source: [Weckenborg et al. (2020)](http://dx.doi.org/10.1007/s40685-019-0101-y) and [Sikora and Weckenborg (2022)](https://dx.doi.org/10.1080/00207543.2022.2093684)
