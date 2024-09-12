@@ -22,7 +22,7 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ```
 @misc{Huang2024,
-  author =        {D. Huang},
+  author =        {D. Huang, Z. Mao, K. Fang, E. Fu and M. Pinedo},
   publisher =     {INFORMS Journal on Computing},
   title =         {{An improved combinatorial Benders decomposition algorithm for the human-Robot collaborative assembly line balancing problem}},
   year =          {2024},
