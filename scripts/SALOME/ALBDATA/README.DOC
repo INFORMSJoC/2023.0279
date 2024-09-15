@@ -1,0 +1,10 @@
+This directory contains:
+Input files for all precedence graphs included in the data sets given at
+www.assembly-line-balancing.de
+
+Format of in2-files:
+line 1: number n of tasks
+lines 2-n+1: integer task times
+lines n+2,...: direct precedence relations in form "i,j"
+last line: end mark "-1,-1" (optional)
+
