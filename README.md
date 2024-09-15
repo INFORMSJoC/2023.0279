@@ -7,7 +7,8 @@ under the MIT [License](LICENSE.md).
 
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper
-[An improved combinatorial Benders decomposition algorithm for the human-Robot collaborative assembly line balancing problem](https://doi.org/10.1287/ijoc.2023.0279).
+[An improved combinatorial Benders decomposition algorithm for the human-Robot collaborative assembly line balancing problem](https://doi.org/10.1287/ijoc.2023.0279) by
+D. Huang, Z. Mao, K. Fang, E. Fu and M. Pinedo.
 
 ## Cite
 
